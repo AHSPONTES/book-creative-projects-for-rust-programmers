@@ -9,8 +9,8 @@ host = "localhost"
 db_file = "../data/sales.db"
 
 [postgresql]
-username = "postgres"
-password = "post"
+username = "username"
+password = "password"
 host = "localhost"
 port = "5432"
-database = "Rust2018"
+database = "rust2018"
