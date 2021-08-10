@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Persons management</title>
+		<script>
+			{% include "main.js" %}
+		</script>
+		<style>
+			.error {
+				color: #d00000;
+			}
+			.current-user {
+				color: #0000c0;
+			}
+		</style>
+	</head>
+	<body id="body" onload="getPage('/page/login')"></body>
+</html>
